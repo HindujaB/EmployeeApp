@@ -1,0 +1,34 @@
+[EmployeeApp.dbConnector.database]
+port = 3306
+name = "Employee"
+
+[[employees]]
+emp_id = 101
+name = "Jack"
+salary = 28400.3
+position = "Software Engineer"
+projects = ["DBMS_module"]
+
+[[employees]]
+emp_id = 102
+name = "John"
+salary = 13400.7
+position = "Tech Lead"
+projects = ["DBMS_module", "Hotel_Reservation_App"]
+
+[[employees]]
+emp_id = 103
+name = "Jill"
+salary = 50000.5
+position = "Project Manager"
+projects = ["DBMS_module", "Hotel_Reservation_App"]
+
+[[employees]]
+emp_id = 104
+name = "Jim"
+salary = 42000.4
+position = "Software Engineer"
+projects = ["Hotel_Reservation_App"]
+
+[ballerina.log]
+format = "json"
